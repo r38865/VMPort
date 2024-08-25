@@ -56,7 +56,7 @@ vlesslink3="vless://${uuid}@${domain}:$tls?mode=gun&security=tls&encryption=none
 
 systemctl restart xray
 
-cat > /home/vps/public_html/vless-$user.txt <<- EOF
+cat > /home/vps/public_html/vless-$user.txt <<-END
 ======================
 INFO      VLESS Account
 ======================
@@ -80,7 +80,7 @@ None TLS : $vlesslink2
 ======================
 GRPC : $vlesslink3
 ======================
-EOF
+END
 
 TEXT="
 <code>────────────────────</code>
