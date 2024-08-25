@@ -72,7 +72,7 @@ asu=`cat<<EOF
       "tls": "tls"
 }
 EOF`
-maxis=`cat<<EOF
+maxis=`cat<<- EOF
       {
       "v": "2",
       "ps": "${user}",
