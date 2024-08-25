@@ -212,8 +212,6 @@ GRPC : $vmesslink3
 ======================
 Worryfree : $vmesslink4
 ======================
-Maxis : vmesslink4
-
 END
 TEXT="
 <code>────────────────────</code>
