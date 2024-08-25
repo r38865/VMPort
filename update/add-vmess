@@ -183,7 +183,6 @@ echo "$vmesslink2" > /root/akun/vmess/vmesswsnontls-$user.txt
 echo "$vmesslink3" > /root/akun/vmess/vmessgrpc-$user.txt
 echo "$vmesslink4" > /root/akun/vmess/vmessworry-$user.txt
 
-
 systemctl restart xray > /dev/null 2>&1
 service cron restart > /dev/null 2>&1
 
@@ -213,6 +212,8 @@ GRPC : $vmesslink3
 ======================
 Worryfree : $vmesslink4
 ======================
+Maxis : vmesslink4
+
 END
 TEXT="
 <code>────────────────────</code>
